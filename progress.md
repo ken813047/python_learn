@@ -80,3 +80,7 @@
 
 ### Day 6（尚未開始）
 - 主題：待安排（預計：while 迴圈，或先處理 Mac / Windows 兩邊 python_learn 資料夾同步問題）
+
+要回家重新設定一次本地branch 跟github端的branch相連結的步驟
+git remote add http:~~~
+git push -u origin main
