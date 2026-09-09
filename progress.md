@@ -108,5 +108,8 @@
 - 練習：建立 5 個元素的 list，用索引印出第一個和最後一個、append 新元素後印出完整 list、用切片印出前 3 個元素
   - 第一次用 `food[4]` 印最後一個元素（當下對，但不穩健），經提示後自己改成 `food[-1]`
 
-### Day 8（尚未開始）
-- 主題：待安排（預計：list 進階操作如 remove/insert/len()，或 for 迴圈遍歷 list）
+## 學習方向調整（2026-09-09）
+- 背景：使用者的公司工作是硬體校正/系統測試自動化（partner-calibration-and-system-test-automation repo），內容是把 config 填上相機/滑台序號跟實際硬體結合、用 pre_process 準備測試、在機台上測試、用 post_process 撈資料給客戶
+- 判斷：這份工作屬於「系統整合 / 測試自動化工程」，會大量用到 class 繼承（不同 station 繼承共用 Station 基底類別）、config 讀寫、例外處理（硬體異常）、debug、pytest
+- 未來課程路線調整為（在原本 list 之後）：function → class / OOP → try/except（例外處理）→ 讀寫檔案（json 等設定檔）→ pytest 入門
+- 之後每天課程安排優先考慮跟這個方向對齊，比單純練語法更貼近實際工作需求
