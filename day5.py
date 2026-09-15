@@ -7,7 +7,7 @@ else:
 
 score = 50
 
-if score =90:
+if score = 90:
     print("優等")
 elif score >=60:
     print("及格")
